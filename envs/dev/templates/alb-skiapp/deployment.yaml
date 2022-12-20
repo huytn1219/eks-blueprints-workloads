@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: skiapp
-        image: sharepointoscar/skiapp:v2
+        image: 180287136233.dkr.ecr.us-west-2.amazonaws.com/skiapp:latest
         ports:
         - containerPort: 8080
         resources:
