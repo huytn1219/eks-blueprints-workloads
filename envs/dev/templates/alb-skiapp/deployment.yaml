@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: skiapp
-        image: 180287136233.dkr.ecr.us-west-2.amazonaws.com/skiapp:latest
+        image: 180287136233.dkr.ecr.us-west-2.amazonaws.com/skiapp:v1.0.9
         ports:
         - containerPort: 8080
         resources:
